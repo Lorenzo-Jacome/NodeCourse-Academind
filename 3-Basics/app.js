@@ -1,6 +1,6 @@
 const http = require('http');
 
-//createServer => Regresa un objeto server
+//createServer -> Regresa un objeto server
 //PRIMER PARAMETRO: Funcion a ejecturar al recibir request
 const server = http.createServer((req, res) => {
     console.log(req);
