@@ -17,3 +17,8 @@ Learn the use of NPM, adding NPM scripts, identifying different error types, deb
   * `npm install` - Goes through your package json and installs and updates dependencies
 #### Dependencies in this project:
 * `npm install nodemon` - Package that removes the need to have to stop and run the programm again once changes are made and saved. Autorestarts server. 
+### Section 5 - Working with Express.js
+Learn how to use the Express framemowrk to focus more on the "bussiness" part of the code. Topics include: Middleware functions (app.use()), body parser
+#### Dependencies in this project:
+* `npm install --save express` - To install the express framework. We don't use the save-dev option because this is an essential part of the project so it goes into production.
+* `npm install --save body-parser` - Body parser
