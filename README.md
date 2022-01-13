@@ -12,8 +12,13 @@ Learn the use of NPM, adding NPM scripts, identifying different error types, deb
 * `npm start` - Runs script but its a special case (you don't need to write the run part) 
 * `npm run nombre-script` - Run script created by user
 * `npm install nombre-paquete` - Install packages from NPM into your project
-** `npm install nombre-paquete --save-dev` - You specify that the package will only be used in development, not production. Installs only for your project
-** `npm install nombre-paquete -g` - Installs the package globaly, not just for the project
-** `npm install` - Goes through your package json and installs and updates dependencies
+  * `npm install nombre-paquete --save-dev` - You specify that the package will only be used in development, not production. Installs only for your project
+  * `npm install nombre-paquete -g` - Installs the package globaly, not just for the project
+  * `npm install` - Goes through your package json and installs and updates dependencies
 #### Dependencies in this project:
 * `npm install nodemon` - Package that removes the need to have to stop and run the programm again once changes are made and saved. Autorestarts server. 
+### Section 5 - Working with Express.js
+Learn how to use the Express framemowrk to focus more on the "bussiness" part of the code. Topics include: Middleware functions (app.use()), body parser
+#### Dependencies in this project:
+* `npm install --save express` - To install the express framework. We don't use the save-dev option because this is an essential part of the project so it goes into production.
+* `npm install --save body-parser` - Body parser
