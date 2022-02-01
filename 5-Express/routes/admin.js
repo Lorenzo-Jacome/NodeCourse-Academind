@@ -1,10 +1,12 @@
 const express = require('express');
+const path = require('path');  
+const rootDir = require('../util/path');
 
 const router = express.Router();
 
 router.get('/add-product', (req, res, next) => {
     //SEND - helps us send the response. Can be: HTML,
-    res.send('<form action="/product" method="POST"><input type="text" name="title"><button type="submit">Add product</button></form>');
+    res.sendFile(path.join(rootDir, 'views', 'add-product.html'));
 });
 
 //app.get = Same as app.use, but only works with get requests
