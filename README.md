@@ -19,6 +19,7 @@ Learn the use of NPM, adding NPM scripts, identifying different error types, deb
 * `npm install nodemon` - Package that removes the need to have to stop and run the programm again once changes are made and saved. Autorestarts server. 
 ### Section 5 - Working with Express.js
 Learn how to use the Express framemowrk to focus more on the "bussiness" part of the code. Topics include: Middleware functions (app.use()), body parser
+* `path.join()` Is used to create a path for any platform. That's why it is used instead of just concat the strings. To use it you need to import `const path = require('path');`
 #### Dependencies in this project:
 * `npm install --save express` - To install the express framework. We don't use the save-dev option because this is an essential part of the project so it goes into production.
 * `npm install --save body-parser` - Body parser
